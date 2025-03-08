@@ -1,0 +1,109 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 3px 10px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    background: -webkit-linear-gradient(left, #5CA861 , #BADFBC);
+    background: -o-linear-gradient(right, #5CA861 , #BADFBC);
+    background: -moz-linear-gradient(right, #5CA861 , #BADFBC);
+    background: linear-gradient(to right, #5CA861 , #BADFBC);
+}
+
+header .logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+header h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+
+nav {
+    text-align: left;
+    padding-left: 15px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 5px 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+
+
+.contenido {
+    background: url('imagenes/imagen3.jpg') no-repeat center center;
+    background-size: cover;
+    border-radius: 6px;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+}
+
+
+.galeria {
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.6);
+    padding: 10px;
+    border-radius: 6px;
+}
+
+
+.descripcion {
+    text-align: left;
+    padding: 10px;
+    background: url('imagenes/descripcion_fondo.jpg') no-repeat center center;
+    background-size: cover;
+    border-radius: 6px;
+}
+
+.descripcion p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: black;
+    background: rgba(255, 255, 255, 0.6); /
+    padding: 5px;
+    border-radius: 4px;
+}
+
+
+.img-pequena {
+    border: 2px solid #605B56;
+    margin: 3px;
+    border-radius: 4px;
+    width: 70px;
+    height: auto;
+}
+
+
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background: #5CA861;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
