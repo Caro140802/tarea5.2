@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda en Línea</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        #contenido {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            padding: 20px;
+        }
+        .contenedor {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        #destacados {
+            background-color: #a7e7d6;
+            padding: 20px;
+        }
+        #destacados .contenedor > div {
+            text-align: center;
+            padding: 10px;
+            margin: 10px;
+            background-color: white;
+            width: 50%;
+        }
+        #ofertas {
+            background-color: #87ceeb;
+            padding: 20px;
+        }
+        #ofertas .contenedor > div {
+            text-align: center;
+            padding: 10px;
+            margin: 10px;
+            background-color: white;
+            width: 33.3%;
+        }
+        #disponible {
+            background-color: #ffb6c1;
+            padding: 20px;
+        }
+        #disponible .contenedor > div {
+            text-align: center;
+            padding: 10px;
+            border: solid 5px coral;
+            background-color: white;
+            width: 25%;
+        }
+    </style>
+</head>
+<body>
+    <div id="contenido">
+        <section id="destacados">
+            <h2>Productos Destacados</h2>
+            <div class="contenedor">
+                <div>Producto 1</div>
+                <div>Producto 2</div>
+            </div>
+        </section>
+        
+        <section id="ofertas">
+            <h2>Ofertas</h2>
+            <div class="contenedor">
+                <div>Producto 1</div>
+                <div>Producto 2</div>
+                <div>Producto 3</div>
+            </div>
+        </section>
+        
+        <section id="disponible">
+            <h2>Disponibles</h2>
+            <div class="contenedor">
+                <div>Producto 1</div>
+                <div>Producto 2</div>
+                <div>Producto 3</div>
+                <div>Producto 4</div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
